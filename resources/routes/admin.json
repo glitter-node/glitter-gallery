@@ -1,0 +1,13 @@
+{
+    "version": "1.0.0",
+    "routes": [
+        {
+            "path": "*/admin/gallery",
+            "layout": "admin_gallery_dashboard",
+            "auth_required": true,
+            "meta": {
+                "title": "$t:glitter-gallery.admin.dashboard.title"
+            }
+        }
+    ]
+}

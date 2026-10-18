@@ -1,0 +1,34 @@
+{
+    "id": "glitter-gallery",
+    "identifier": "glitter-gallery",
+    "vendor": "Glitter.kr",
+    "name": {
+        "ko": "반짝이 갤러리",
+        "en": "Glitter Gallery"
+    },
+    "version": "0.1.1",
+    "license": "MIT",
+    "author": "Glitter Node",
+    "description": {
+        "ko": "Gnuboard 7 갤러리 및 아카이브 전시 번들",
+        "en": "Gallery and archive exhibition bundle for Gnuboard 7"
+    },
+    "keywords": [
+        "gnuboard7",
+        "gallery",
+        "archive",
+        "exhibition",
+        "module",
+        "glitter"
+    ],
+    "category": "content",
+    "portable_bundle": true,
+    "g7_version": ">=7.0.0-beta.1",
+    "requires": {
+        "g7": ">=7.0.0-beta.1"
+    },
+    "dependencies": {
+        "modules": {},
+        "plugins": {}
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "admin": {
+        "dashboard": {
+            "title": "Gallery management",
+            "description": "Manage gallery content from this screen.",
+            "ready": "The gallery administration route is connected."
+        }
+    }
+}

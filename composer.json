@@ -1,0 +1,16 @@
+{
+    "name": "modules/glitter-gallery",
+    "description": "Gallery and archive exhibition module for Gnuboard7",
+    "type": "library",
+    "version": "0.1.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Modules\\Glitter\\Gallery\\": "src/",
+            "Modules\\Glitter\\Gallery\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "require": {
+        "php": "^8.2"
+    }
+}

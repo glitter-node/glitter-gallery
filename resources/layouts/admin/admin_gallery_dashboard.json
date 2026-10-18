@@ -1,0 +1,49 @@
+{
+    "version": "1.0.0",
+    "layout_name": "admin_gallery_dashboard",
+    "permissions": [],
+    "extends": "_admin_base",
+    "meta": {
+        "title": "$t:glitter-gallery.admin.dashboard.title",
+        "description": "$t:glitter-gallery.admin.dashboard.description"
+    },
+    "data_sources": [],
+    "slots": {
+        "content": [
+            {
+                "id": "gallery_admin_content",
+                "type": "basic",
+                "name": "Div",
+                "props": {
+                    "className": "admin-page-content-responsive-fluid"
+                },
+                "children": [
+                    {
+                        "id": "gallery_admin_header",
+                        "type": "composite",
+                        "name": "PageHeader",
+                        "props": {
+                            "title": "$t:glitter-gallery.admin.dashboard.title",
+                            "description": "$t:glitter-gallery.admin.dashboard.description"
+                        }
+                    },
+                    {
+                        "id": "gallery_admin_status",
+                        "type": "basic",
+                        "name": "Div",
+                        "props": {
+                            "className": "admin-card"
+                        },
+                        "children": [
+                            {
+                                "type": "basic",
+                                "name": "P",
+                                "text": "$t:glitter-gallery.admin.dashboard.ready"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
